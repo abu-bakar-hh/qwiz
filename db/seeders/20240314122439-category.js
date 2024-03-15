@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert('Categories', [
       {
        name: 'Гиганты Эльбруса',
-       img: "./mockups/IMG_5359.JPG",
+       img: "/mockups/IMG_5359.JPG",
        userID: 1,
        createdAt: new Date(),
        updatedAt: new Date()
@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         name: 'Программист?',
-        img: './mockups/IMG_0672.JPG',
+        img: '/mockups/IMG_0672.JPG',
         userID: 2,
         createdAt: new Date(),
         updatedAt: new Date()

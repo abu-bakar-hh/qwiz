@@ -19,9 +19,7 @@ module.exports = function Layout({ title, heading, user, children }) {
                         crossOrigin="anonymous"
                     />
                     <link rel="stylesheet" href="/css/style.css"></link>
-                    <script src='/js/tweet.js' defer></script>
-                    <script src='/js/updateTweet.js' defer></script>
-                    <script src='/js/user.js' defer></script>
+                    <script src='/js/btn.js' defer></script>
                 </head>
                 <body>
                     <Navbar expand="lg" bg="red" data-bs-theme="" className="bg-body-tertiary justify-content-between">

@@ -1,7 +1,9 @@
 const router = require('express').Router()
 const categoryRouter = require('./category.route')
+const GiantRouter = require('./giant.route')
 
 router.use('/',categoryRouter )
+router.use('/category', GiantRouter)
 
 //    router.post('/',(req, res) => {
 //         res.app.locals.name = req.body.name
