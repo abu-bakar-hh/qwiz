@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert('Questions', [
       {
        name: 'Вопрос-1',
-       img: "./mockups/IMG_5359.JPG",
+       img: "/mockups/IMG_5359.JPG",
        categoryID: 1,
        createdAt: new Date(),
        updatedAt: new Date()
@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         name: 'Вопрос-2',
-        img: './mockups/IMG_0672.JPG',
+        img: '/mockups/IMG_0672.JPG',
         categoryID: 2,
         createdAt: new Date(),
         updatedAt: new Date()
