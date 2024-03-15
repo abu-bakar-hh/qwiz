@@ -20,6 +20,7 @@ module.exports = function Layout({ title, heading, user, children }) {
                     />
                     <link rel="stylesheet" href="/css/style.css"></link>
                     <script src='/js/btn.js' defer></script>
+                    <script src='/js/user.js' defer></script>
                 </head>
                 <body>
                     <Navbar expand="lg" bg="red" data-bs-theme="" className="bg-body-tertiary justify-content-between">
@@ -28,16 +29,16 @@ module.exports = function Layout({ title, heading, user, children }) {
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="me-auto">
-                                    <Nav.Link href="/">Score:</Nav.Link>
+                                    <Nav.Link href="/">Score:0</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                             <Navbar.Collapse className="justify-content-end">
                                 <Nav >
-                                    <Nav.Link href="/auth/reg">Registration</Nav.Link>
+                                    <Nav.Link href="/reg">Registration</Nav.Link>
 
                                 </Nav>
                                 <Navbar.Text>
-                                    Hello,<a href="#login">{user?.login}</a>
+                                    Hello!!!!!!<a href="#login">{}</a>
                                 </Navbar.Text>
                             </Navbar.Collapse>
                         </Container>
